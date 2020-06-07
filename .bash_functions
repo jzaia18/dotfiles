@@ -1,4 +1,4 @@
-cd() { builtin cd "$@"; ls --color=auto;}
+cd() { builtin cd "$@"; ls -A --color=auto;}
 
 cj() { rm ./#* *~ .*~ *.class *.pyc *.o 2> /dev/null; }
 
