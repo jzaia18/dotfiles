@@ -1,6 +1,7 @@
 ## Useful
 alias fz='filezilla &> /dev/null &'
 alias rc='javac *.java'
+alias py='python3'
 
 # Git related commands
 alias aa='git add .'
