@@ -1,0 +1,7 @@
+# Run this file once, e.g. `bash .git_aliases` to set all aliases in global git config
+# It does NOT need to be included in a list of startup commands such as .bashrc or .zshrc
+
+git config --global alias.co checkout
+git config --global alias.cm commit
+git config --global alias.st status
+git config --global alias.sw switch
