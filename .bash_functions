@@ -19,6 +19,6 @@ push() { git push "$@" }
 
 # Not functions, but easier to keep all git stuff together
 alias pushu='git push -u origin $(git branch --show-current)'
-alias pullsh='pull && push && git status && ls'
+alias pullsh='git pull && git push && git status && ls'
 alias aa='git add .'
 alias clone='git clone'
