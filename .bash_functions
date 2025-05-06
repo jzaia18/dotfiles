@@ -13,9 +13,9 @@ pp() { cj; git add . && git commit -am "$1" && git pull && git push; }
 
 submod() { git pull && git submodule add $1 $2 && git commit -am "Add submodule $2" && git push; }
 
-pull() { git pull "$@" && git status && ls }
+pull() { git pull "$@" && git status && ls; }
 
-push() { git push "$@" }
+push() { git push "$@"; }
 
 # Not functions, but easier to keep all git stuff together
 alias pushu='git push -u origin $(git branch --show-current)'
