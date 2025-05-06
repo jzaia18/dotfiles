@@ -3,14 +3,8 @@ alias fz='filezilla &> /dev/null &'
 alias rc='javac *.java'
 alias py='python3'
 
-# Git related commands
-alias aa='git add .'
-alias gs='git status'
-alias gd='git diff'
-alias pull='git pull && ls'
-alias push='git push'
-alias pushu='git push -u origin $(git branch --show-current)'
-alias pullsh='pull && push'
-alias commit='git commit'
-alias clone='git clone'
-alias chout='git checkout'
+# Git aliases have been moved to the .bash_functions file since
+#   some needed to support args
+
+# Xanadu
+alias pennylist='pip list | grep -i pennylane'
