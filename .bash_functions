@@ -8,6 +8,10 @@ mkcd() { mkdir "$@" && cd "$@"; }
 cj() { rm ./#* *~ .*~ *.class *.pyc *.o 2> /dev/null; }
 
 
+# Activate virtualenvs
+vact() { source "$1"/bin/activate }
+
+
 # Git functions
 pp() { cj; git add . && git commit -am "$1" && git pull && git push; }
 
