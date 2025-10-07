@@ -9,7 +9,7 @@ cj() { rm ./#* *~ .*~ *.class *.pyc *.o 2> /dev/null; }
 
 
 # Activate virtualenvs
-vact() { source "$1"/bin/activate }
+vact() { source "$1"/bin/activate; }
 
 
 # Git functions
